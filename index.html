@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080a12">
+  <meta name="description" content="AZZAM | SECRET FILES — ملفات غامضة، قصص، وأحداث من عالم الألعاب. شاهد أحدث الفيديوهات واشترك في القناة.">
+  <title>AZZAM | SECRET FILES</title>
+  <style>
+    :root{--bg:#080a12;--panel:#101421;--panel2:#151b2b;--text:#f4f6fb;--muted:#a7afc2;--red:#ff365d;--cyan:#68e1f5;--line:#252c40}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:radial-gradient(ellipse at 85% 0%,#20203c 0,transparent 36%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.75}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:5;background:#080a12e8;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff12}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0}.header-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.auth-badge{font-size:.78rem;color:var(--muted);max-width:180px;overflow-wrap:anywhere}.hidden{display:none!important}.admin-panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px;margin-top:28px}.admin-panel h3{margin-top:0}.admin-panel p{color:var(--muted)}.admin-tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.admin-form{display:grid;gap:12px;margin-top:20px}.admin-form input,.admin-form textarea{width:100%;padding:13px;border-radius:10px;border:1px solid var(--line);background:#080a12;color:var(--text);font:inherit}.admin-form textarea{min-height:110px;resize:vertical}.admin-status{font-size:.9rem;color:var(--cyan)}.brand{font-weight:900;letter-spacing:1px;direction:ltr;white-space:nowrap}.brand span{color:var(--red)}
+    nav{display:flex;gap:22px;color:var(--muted);font-size:.94rem}nav a:hover{color:white}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 18px;border-radius:10px;background:var(--red);font-weight:800;color:white;border:1px solid transparent;transition:.2s}.btn:hover{transform:translateY(-2px);filter:brightness(1.1)}.btn.ghost{background:transparent;border-color:#ffffff30}
+    .hero{padding:78px 0 60px;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:42px;min-height:440px}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--cyan);font-size:.83rem;font-weight:800;letter-spacing:2px}.dot{width:8px;height:8px;background:var(--red);border-radius:50%;box-shadow:0 0 14px var(--red)}h1{font-size:clamp(2.4rem,6vw,5rem);line-height:1.08;margin:18px 0;letter-spacing:-1.5px}h1 span{display:block;color:var(--red);direction:ltr;text-align:right}.hero p{color:var(--muted);max-width:620px;font-size:1.08rem}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+    .visual{position:relative;min-height:280px;display:grid;place-items:center;border:1px solid #ffffff20;border-radius:24px;overflow:hidden;background:linear-gradient(145deg,#1a2034,#0c0f1a 65%);box-shadow:0 25px 80px #0008}.visual:before,.visual:after{content:"";position:absolute;border:1px solid #ff365d50;border-radius:50%;width:260px;height:260px;transform:rotate(-25deg)}.visual:after{width:330px;height:330px;border-color:#68e1f533}.visual-mark{position:relative;z-index:1;text-align:center}.visual-mark .file{font-size:5rem;line-height:1;filter:drop-shadow(0 0 24px #ff365d55)}.visual-mark strong{display:block;font-size:1.45rem;letter-spacing:3px;direction:ltr}.visual-mark small{color:var(--muted);letter-spacing:4px;direction:ltr;display:block}
+    section{padding:36px 0 54px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:22px}.section-head h2{font-size:clamp(1.6rem,4vw,2.35rem);margin:0}.section-head p{color:var(--muted);margin:5px 0 0}.tag{font-size:.8rem;color:var(--cyan);border:1px solid #68e1f544;border-radius:999px;padding:5px 11px;white-space:nowrap}
+    .featured{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;background:var(--panel);border:1px solid var(--line);padding:18px;border-radius:18px}.video-frame{aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden}.video-frame iframe{width:100%;height:100%;border:0}.video-copy{padding:8px 6px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}.video-copy h3{font-size:1.55rem;line-height:1.4;margin:10px 0}.video-copy p{color:var(--muted);margin:0 0 20px}.label{color:var(--red);font-size:.78rem;font-weight:900;letter-spacing:1.5px}
+    .video-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:20px}.video-card{min-width:0;overflow:hidden;background:var(--panel);border:1px solid var(--line);border-radius:15px;transition:.2s}.video-card:hover{transform:translateY(-4px);border-color:#ff365d70}.thumb{display:block;position:relative;aspect-ratio:16/9;background:#000;overflow:hidden}.thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .25s}.video-card:hover .thumb img{transform:scale(1.04)}.play-badge{position:absolute;inset:auto 14px 14px auto;background:#ff365de8;padding:5px 11px;border-radius:8px;font-weight:800}.video-card-copy{padding:15px}.video-card h3{font-size:1rem;line-height:1.5;margin:0 0 8px}.video-card p{font-size:.88rem;line-height:1.65;color:var(--muted);margin:0 0 12px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.video-meta{color:var(--cyan);font-size:.78rem;margin-bottom:8px}.status-box{padding:18px;background:var(--panel);border:1px solid var(--line);border-radius:14px;color:var(--muted)}.status-box.error{border-color:#ff365d70;color:#ffd6de}.video-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:22px}.api-note{color:var(--muted);font-size:.86rem;margin-top:14px}
+    .about{display:grid;grid-template-columns:.7fr 1.3fr;gap:28px;align-items:center;background:linear-gradient(120deg,#131829,#0c0f19);border:1px solid var(--line);padding:28px;border-radius:18px}.about h2{margin:0;font-size:2rem}.about p{color:var(--muted);margin:0}.stats{display:flex;gap:20px;flex-wrap:wrap;margin-top:18px}.stats div{border-right:2px solid var(--red);padding-right:12px}.stats strong{display:block}.stats small{color:var(--muted)}
+    .subscribe{text-align:center;padding:48px 20px;border-radius:20px;border:1px solid #ff365d45;background:radial-gradient(ellipse at center,#321525 0, #111321 55%,#0b0d16 100%)}.subscribe h2{font-size:clamp(1.7rem,4vw,2.5rem);margin:0 0 8px}.subscribe p{color:var(--muted);margin:0 0 20px}
+    footer{border-top:1px solid #ffffff12;padding:22px 0;color:var(--muted);font-size:.88rem}.footer-inner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.footer-inner strong{color:white;direction:ltr;display:inline-block}
+    @media(max-width:780px){nav{display:none}.hero{grid-template-columns:1fr;padding:54px 0 36px;gap:28px}.visual{min-height:220px}.featured{grid-template-columns:1fr}.video-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.about{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}.video-copy{padding:4px}}@media(max-width:520px){.video-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap nav">
+    <a class="brand" href="#home" aria-label="AZZAM Secret Files home">AZZAM <span>| SECRET FILES</span></a>
+    <nav aria-label="التنقل"><a href="#home">الرئيسية</a><a href="#videos">الفيديوهات</a><a href="#about">عن الموقع</a></nav>
+    <div class="header-actions">
+      <button class="btn" id="login-button" type="button">دخول الأدمن 🔐</button>
+      <button class="btn ghost hidden" id="logout-button" type="button">تسجيل الخروج</button>
+      <span class="auth-badge" id="auth-state" aria-live="polite">زائر</span>
+      <a class="btn ghost" href="https://www.youtube.com/@azzamsecretfile" target="_blank" rel="noopener">▶ القناة</a>
+    </div>
+  </div></header>
+  <main>
+    <div class="wrap hero" id="home">
+      <div>
+        <div class="eyebrow"><span class="dot"></span> ملفات لم تُكشف بعد</div>
+        <h1>كل قصة وراها سرّ <span>AZZAM | SECRET FILES</span></h1>
+        <p>أهلاً بك في ملفات عزام السرية — مكان الحكايات الغامضة، والمغامرات، والأحداث اللي تستحق تكتشفها بنفسك. شاهد الفيديوهات، تابع الملفات الجديدة، وخليك دايمًا قريب من القصة.</p>
+        <div class="hero-actions"><a class="btn" href="#videos">استكشف الفيديوهات ↓</a><a class="btn ghost" href="https://youtu.be/4YY1q2_yRaA" target="_blank" rel="noopener">شاهد أحدث فيديو ↗</a></div>
+      </div>
+      <div class="visual" aria-label="تصميم ملفات سرية"><div class="visual-mark"><div class="file">▣</div><strong>SECRET FILES</strong><small>CLASSIFIED • AZZAM</small></div></div>
+    </div>
+
+    <section class="wrap" id="videos">
+      <div class="section-head"><div><h2>أحدث الملفات 🎬</h2><p>الفيديو المميز من قناة AZZAM | SECRET FILES</p></div><span class="tag">LATEST UPLOAD</span></div>
+      <div id="video-status" class="status-box" role="status">جاري تحميل أحدث الملفات من قناة يوتيوب…</div>
+      <article class="featured" id="featured-video" hidden>
+        <div class="video-frame" id="featured-frame"></div>
+        <div class="video-copy"><span class="label">LATEST FILE • VIDEO</span><h3 id="featured-title"></h3><p id="featured-description"></p><a class="btn" id="featured-link" href="https://youtu.be/4YY1q2_yRaA" target="_blank" rel="noopener">مشاهدة على يوتيوب ↗</a><button class="delete-video hidden" id="delete-featured" type="button">حذف الفيديو المميز</button></div>
+      </article>
+      <div id="video-grid" class="video-grid" aria-live="polite"></div>
+      <div class="video-actions"><button class="btn ghost" id="load-more" type="button" hidden>تحميل فيديوهات أقدم ↓</button><a class="btn" href="https://www.youtube.com/@azzamsecretfile" target="_blank" rel="noopener">كل فيديوهات القناة ↗</a></div>
+      <div class="admin-panel hidden" id="admin-panel">
+        <h3>👑 لوحة تحكم الأدمن</h3>
+        <p>لوحة النشر ظاهرة لحساب الأدمن فقط.</p>
+        <form class="admin-form hidden" id="video-form">
+          <h3>➕ نشر فيديو جديد</h3>
+          <input id="video-title" type="text" maxlength="180" placeholder="عنوان الفيديو" required>
+          <input id="video-url" type="url" placeholder="رابط فيديو YouTube" required>
+          <textarea id="video-description" maxlength="3000" placeholder="وصف الفيديو" required></textarea>
+          <button class="btn" type="submit">نشر الفيديو للجميع</button>
+        </form>
+        <p class="admin-status" id="admin-status" role="status">الفيديوهات المنشورة تُحفظ في Firebase وتظهر لكل الزوار.</p>
+      </div>
+    </section>
+
+    <section class="wrap" id="about">
+      <div class="about"><div><span class="label">ABOUT THE PROJECT</span><h2>عن الموقع</h2><div class="stats"><div><strong>SECRET</strong><small>أجواء غامضة</small></div><div><strong>VIDEO</strong><small>محتوى القناة</small></div></div></div><div><p><b>AZZAM | SECRET FILES</b> هو الموقع الرسمي المصغّر لعالم عزام على يوتيوب. هنا هتلاقي الفيديوهات المميزة، ووصف واضح لكل حلقة، وروابط مباشرة للقناة. التصميم معمول بطابع داكن ولمسات حمراء وسماوية عشان يدي إحساس الملفات السرية والغموض، مع واجهة سهلة على الموبايل والكمبيوتر.</p></div></div>
+    </section>
+
+    <section class="wrap"><div class="subscribe"><h2>جاهز تفتح الملف الجاي؟</h2><p>اشترك في القناة وفعل الجرس علشان ما يفوتكش أي فيديو جديد.</p><a class="btn" href="https://www.youtube.com/@azzamsecretfile" target="_blank" rel="noopener">اشترك في القناة ▶</a></div></section>
+  </main>
+  <footer><div class="wrap footer-inner"><span>© <span id="year"></span> <strong>AZZAM | SECRET FILES</strong> — جميع الحقوق محفوظة.</span><span>صُنع لعشاق القصص والأسرار ✦</span></div></footer>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-app.js";
+    import { getAuth, GoogleAuthProvider, signInWithPopup, signInWithRedirect, getRedirectResult, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-auth.js";
+    import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-database.js";
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const firebaseConfig = {
+      apiKey: "AIzaSyDmmyCTGCWBMKEl10gJPEtHGYjCoio41P0",
+      authDomain: "azzam-a2fd9.firebaseapp.com",
+      databaseURL: "https://azzam-a2fd9-default-rtdb.firebaseio.com",
+      projectId: "azzam-a2fd9",
+      storageBucket: "azzam-a2fd9.firebasestorage.app",
+      messagingSenderId: "282235279978",
+      appId: "1:282235279978:web:fd5d8af9b7817dd45ec813",
+      measurementId: "G-LCF4VDLTEX"
+    };
+    const ADMIN_EMAIL = 'migo43911@gmail.com';
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getDatabase(app);
+    const videosRef = ref(db, 'videos');
+    const provider = new GoogleAuthProvider();
+    const statusBox = document.getElementById('video-status');
+    const videoGrid = document.getElementById('video-grid');
+    const featured = document.getElementById('featured-video');
+    const loginButton = document.getElementById('login-button');
+    const logoutButton = document.getElementById('logout-button');
+    const authState = document.getElementById('auth-state');
+    const form = document.getElementById('video-form');
+    const adminPanel = document.getElementById('admin-panel');
+    const adminStatus = document.getElementById('admin-status');
+    let isAdmin = false;
+
+    function escapeHTML(value = '') {
+      return String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+    }
+    function youtubeId(url) {
+      try {
+        const u = new URL(url);
+        let id = '';
+        if (u.hostname === 'youtu.be' || u.hostname.endsWith('.youtu.be')) id = u.pathname.split('/').filter(Boolean)[0] || '';
+        else if (u.hostname.includes('youtube.com')) {
+          if (u.pathname === '/watch') id = u.searchParams.get('v') || '';
+          else if (/^\/(embed|shorts|live)\//.test(u.pathname)) id = u.pathname.split('/')[2] || '';
+        }
+        return /^[A-Za-z0-9_-]{11}$/.test(id) ? id : '';
+      } catch { return ''; }
+    }
+    function showFeatured(video) {
+      const id = youtubeId(video.url || '');
+      if (!id) { featured.hidden = true; return; }
+      document.getElementById('featured-frame').innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${id}" title="${escapeHTML(video.title)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+      document.getElementById('featured-title').textContent = video.title || 'أحدث فيديو';
+      document.getElementById('featured-description').textContent = video.description || '';
+      document.getElementById('featured-link').href = `https://www.youtube.com/watch?v=${id}`;
+      featured.hidden = false;
+      const deleteFeatured = document.getElementById('delete-featured');
+      deleteFeatured.classList.toggle('hidden', !isAdmin);
+      deleteFeatured.onclick = async () => {
+        if (!isAdmin || !confirm('متأكد إنك عايز تحذف الفيديو ده؟')) return;
+        const entries = latestData ? Object.entries(latestData).map(([key, value]) => ({key, ...value})).reverse() : [];
+        const match = entries.find(item => youtubeId(item.url || '') === id);
+        if (!match) return;
+        try { await remove(ref(db, `videos/${match.key}`)); adminStatus.textContent = 'تم حذف الفيديو.'; }
+        catch (e) { adminStatus.textContent = 'فشل الحذف: ' + e.message; }
+      };
+    }
+    function renderVideos(data) {
+      const entries = data ? Object.entries(data).map(([key, value]) => ({key, ...value})).filter(v => v.title && youtubeId(v.url || '')).reverse() : [];
+      videoGrid.innerHTML = '';
+      if (!entries.length) {
+        statusBox.hidden = false; statusBox.className = 'status-box';
+        statusBox.textContent = 'لسه مفيش فيديوهات منشورة. سجّل دخول الأدمن وانشر أول فيديو.';
+        featured.hidden = true; return;
+      }
+      statusBox.hidden = true;
+      showFeatured(entries[0]);
+      videoGrid.innerHTML = entries.slice(1).map(video => {
+        const id = youtubeId(video.url);
+        const card = `<article class="video-card">
+          <a class="thumb" href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/${id}/hqdefault.jpg" alt="صورة ${escapeHTML(video.title)}" loading="lazy"><span class="play-badge">▶ شاهد الفيديو</span></a>
+          <div class="video-card-copy"><h3>${escapeHTML(video.title)}</h3><p>${escapeHTML(video.description || '')}</p><a class="btn ghost" href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noopener">مشاهدة على يوتيوب ↗</a>${isAdmin ? `<br><button class="delete-video" data-delete="${escapeHTML(video.key)}" type="button">حذف الفيديو</button>` : ''}</div>
+        </article>`;
+        return card;
+      }).join('');
+      // Show delete control for the featured video as well through admin form status; cards below can be deleted here.
+      videoGrid.querySelectorAll('[data-delete]').forEach(button => button.addEventListener('click', async () => {
+        if (!isAdmin || !confirm('متأكد إنك عايز تحذف الفيديو ده؟')) return;
+        try { await remove(ref(db, `videos/${button.dataset.delete}`)); adminStatus.textContent = 'تم حذف الفيديو.'; }
+        catch (e) { adminStatus.textContent = 'فشل الحذف: ' + e.message; }
+      }));
+    }
+    function showAuthMessage(message) {
+      authState.textContent = message;
+      authState.title = message;
+      authState.style.color = '#ffb8c5';
+    }
+    loginButton.addEventListener('click', async () => {
+      loginButton.disabled = true;
+      loginButton.textContent = 'جاري تسجيل الدخول…';
+      showAuthMessage('جاري فتح نافذة Google…');
+      try {
+        await signInWithPopup(auth, provider);
+      } catch (e) {
+        console.error('Firebase Google sign-in error:', e);
+        const code = e?.code || 'unknown';
+        // If popup is blocked or unsupported in the mobile browser, use redirect flow.
+        if (['auth/popup-blocked', 'auth/popup-closed-by-user', 'auth/cancelled-popup-request', 'auth/operation-not-supported-in-this-environment'].includes(code)) {
+          showAuthMessage('جاري تحويلك إلى تسجيل الدخول من Google…');
+          try { await signInWithRedirect(auth, provider); return; }
+          catch (redirectError) {
+            console.error('Firebase redirect sign-in error:', redirectError);
+            showAuthMessage('فشل الدخول: ' + (redirectError?.code || redirectError?.message || 'خطأ غير معروف'));
+          }
+        } else {
+          const hints = {
+            'auth/unauthorized-domain': 'أضف نطاق الموقع في Firebase Authentication → Settings → Authorized domains.',
+            'auth/operation-not-allowed': 'فعّل Google من Firebase Authentication → Sign-in method.',
+            'auth/network-request-failed': 'تحقق من اتصال الإنترنت ثم جرّب مرة أخرى.',
+            'auth/invalid-api-key': 'مفتاح Firebase API غير صحيح.'
+          };
+          showAuthMessage('فشل الدخول (' + code + '): ' + (hints[code] || e?.message || 'تحقق من إعدادات Firebase.'));
+        }
+      } finally {
+        loginButton.disabled = false;
+        loginButton.textContent = 'دخول الأدمن 🔐';
+      }
+    });
+    logoutButton.addEventListener('click', () => signOut(auth).catch(e => showAuthMessage('تعذر تسجيل الخروج: ' + (e?.code || e?.message || 'خطأ'))));
+    getRedirectResult(auth).then(result => {
+      if (result?.user) showAuthMessage('تم تسجيل الدخول بنجاح.');
+    }).catch(e => {
+      console.error('Google redirect result error:', e);
+      const code = e?.code || 'unknown';
+      const hints = {
+        'auth/unauthorized-domain': 'أضف نطاق الموقع في Firebase Authentication → Settings → Authorized domains.',
+        'auth/operation-not-allowed': 'فعّل Google من Firebase Authentication → Sign-in method.',
+        'auth/network-request-failed': 'تحقق من اتصال الإنترنت ثم جرّب مرة أخرى.'
+      };
+      showAuthMessage('فشل إكمال تسجيل الدخول (' + code + '): ' + (hints[code] || e?.message || 'خطأ غير معروف'));
+    });
+    onAuthStateChanged(auth, user => {
+      isAdmin = !!user && user.email === ADMIN_EMAIL && user.emailVerified === true;
+      authState.textContent = !user ? 'زائر' : (isAdmin ? 'الأدمن ✓' : 'حساب مشاهدة فقط');
+      authState.style.color = isAdmin ? '#68e1f5' : '';
+      authState.title = user ? (user.email || '') : 'غير مسجل الدخول';
+      loginButton.classList.toggle('hidden', !!user);
+      logoutButton.classList.toggle('hidden', !user);
+      adminPanel.classList.toggle('hidden', !isAdmin);
+      form.classList.toggle('hidden', !isAdmin);
+      renderVideosCacheRefresh();
+    });
+    let latestData = null;
+    function renderVideosCacheRefresh() { if (latestData !== null) renderVideos(latestData); }
+    // Keep the current data available so the interface can refresh when admin status changes.
+    onValue(videosRef, snapshot => { latestData = snapshot.val(); renderVideos(latestData); });
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      if (!isAdmin) { adminStatus.textContent = 'النشر متاح لحساب الأدمن فقط.'; return; }
+      const title = document.getElementById('video-title').value.trim();
+      const url = document.getElementById('video-url').value.trim();
+      const description = document.getElementById('video-description').value.trim();
+      if (!youtubeId(url)) { adminStatus.textContent = 'الرابط غير صحيح. استخدم رابط YouTube لفيديو عادي أو Shorts.'; return; }
+      try {
+        await push(videosRef, {title, description, url});
+        form.reset(); adminStatus.textContent = 'تم نشر الفيديو بنجاح، وسيظهر لكل الزوار على الأجهزة الأخرى.';
+      } catch (e) {
+        adminStatus.textContent = 'فشل النشر: ' + e.message + ' — راجع قواعد Realtime Database واسم قاعدة البيانات.';
+      }
+    });
+  </script>
+</body>
+</html>
